@@ -1,8 +1,9 @@
 # Twitter Bearertoken Getter
 
-This is a CLI tool for developers using twitter api.([Official document](https://dev.twitter.com/oauth/reference/post/oauth2/token))
+This is a CLI tool for developers using twitter api.
 
 In order to acquire a bearer token, you need to send a POST request directly to the endpoint of twitter api.
+[Official document of bearer token](https://dev.twitter.com/oauth/reference/post/oauth2/token)
 
 We have to send some information to the 'Authorization' HTTP Header with credentialization, the process is a little troublesome.
 
