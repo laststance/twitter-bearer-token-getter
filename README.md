@@ -1,4 +1,4 @@
-# Twitter Bearertoken Getter
+# Twitter Bearer Token Getter
 
 This is a CLI tool for developers using twitter api.
 
