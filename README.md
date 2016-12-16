@@ -29,7 +29,7 @@ cd twitter-bearertoken-getter
 ./getBearerToken.php
 ```
 
-After Run,
+After Run,  
 You will be prompted for the consumer key and consumer secret interactively at the terminal so please enter them according to the console message.
 
 If the above two information are correctly entered, a bearer token will be displayed on the terminal.
