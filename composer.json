@@ -1,0 +1,16 @@
+{
+    "name": "ryota.murakami/twitter-bearertoken-getter",
+    "description": "CLI tool of get twitter api bearer token.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ryota-murakami",
+            "email": "dojce1048@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^1.12"
+    }
+}
