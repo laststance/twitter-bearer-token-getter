@@ -1,26 +1,26 @@
 #!/usr/bin/env php
 <?php
 
-echo "type Consumer Key(API Key): ";
-$api_key = fscanf(STDIN, "%s")[0];
+echo 'type Consumer Key(API Key): ';
+$api_key = fscanf(STDIN, '%s')[0];
 
-echo "type Consumer Secret (API Secret): ";
-$api_secret = fscanf(STDIN, "%s")[0];
+echo 'type Consumer Secret (API Secret): ';
+$api_secret = fscanf(STDIN, '%s')[0];
 
 $endpoint = 'https://api.twitter.com/oauth2/token';
 
 $credential = base64_encode($api_key.':'.$api_secret);
 
-$context = array(
-    'http' => array(
+$context = [
+    'http' => [
         'method' => 'POST',
-        'header' => array(
+        'header' => [
             'Authorization: Basic '.$credential,
             'Content-Type: application/x-www-form-urlencoded;charset=UTF-8',
-        ),
-        'content' => http_build_query(array('grant_type' => 'client_credentials')),
-    ),
-);
+        ],
+        'content' => http_build_query(['grant_type' => 'client_credentials']),
+    ],
+];
 
 $curl = curl_init();
 curl_setopt($curl, CURLOPT_URL, $endpoint);
@@ -55,7 +55,7 @@ if ($info['http_code'] == 404) {
     echo "Faild. 404 not founnd.\n";
     echo "endpoint in this code may have been discontinued.\n\n";
 
-    echo "called this: ".$endpoint;
+    echo 'called this: '.$endpoint;
     exit(1);
 }
 
