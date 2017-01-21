@@ -26,7 +26,7 @@ git clone git@github.com:ryota-murakami/twitter-bearertoken-getter.git
 
 ```
 cd twitter-bearertoken-getter
-./getBearerToken.php
+./src/getBearerToken.php
 ```
 
 After Run,
