@@ -1,5 +1,7 @@
 # Twitter Bearer Token Getter
 
+[![Build Status](https://travis-ci.org/ryota-murakami/twitter-bearer-token-getter.svg?branch=master)](https://travis-ci.org/ryota-murakami/twitter-bearer-token-getter)
+
 This is a CLI tool for developers using twitter api.
 
 In order to acquire a bearer token, you need to send a POST request directly to the endpoint of twitter api.  
