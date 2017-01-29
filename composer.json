@@ -1,5 +1,5 @@
 {
-    "name": "ryota.murakami/twitter-bearertoken-getter",
+    "name": "ryota-murakami/twitter-bearer-token-getter",
     "description": "CLI tool of get twitter api bearer token.",
     "type": "library",
     "license": "MIT",
