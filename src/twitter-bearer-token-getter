@@ -1,10 +1,10 @@
 #!/usr/bin/env php
 <?php
 
-echo 'type Consumer Key(API Key): ';
+echo 'Your Consumer Key(API Key): ';
 $api_key = fscanf(STDIN, '%s')[0];
 
-echo 'type Consumer Secret (API Secret): ';
+echo 'Your Consumer Secret (API Secret): ';
 $api_secret = fscanf(STDIN, '%s')[0];
 
 $endpoint = 'https://api.twitter.com/oauth2/token';
