@@ -1,7 +1,9 @@
 # Twitter Bearer Token Getter
 
-[![Build Status](https://travis-ci.org/ryota-murakami/twitter-bearer-token-getter.svg?branch=master)](https://travis-ci.org/ryota-murakami/twitter-bearer-token-getter) [![Latest Stable Version](https://poser.pugx.org/ryota-murakami/twitter-bearer-token-getter/version)](https://packagist.org/packages/ryota-murakami/twitter-bearer-token-getter) [![Total Downloads](https://poser.pugx.org/ryota-murakami/twitter-bearer-token-getter/downloads)](https://packagist.org/packages/ryota-murakami/twitter-bearer-token-getter) [![License](https://poser.pugx.org/ryota-murakami/twitter-bearer-token-getter/license)](https://packagist.org/packages/ryota-murakami/twitter-bearer-token-getter)
-
+[![Build Status](https://travis-ci.org/ryota-murakami/twitter-bearer-token-getter.svg?branch=master)](https://travis-ci.org/ryota-murakami/twitter-bearer-token-getter)
+[![Latest Stable Version](https://poser.pugx.org/ryota-murakami/twitter-bearer-token-getter/version)](https://packagist.org/packages/ryota-murakami/twitter-bearer-token-getter)
+[![Total Downloads](https://poser.pugx.org/ryota-murakami/twitter-bearer-token-getter/downloads)](https://packagist.org/packages/ryota-murakami/twitter-bearer-token-getter)
+[![License](https://poser.pugx.org/ryota-murakami/twitter-bearer-token-getter/license)](https://packagist.org/packages/ryota-murakami/twitter-bearer-token-getter)
 
 This is a CLI tool for developers using twitter api.
 
@@ -11,9 +13,6 @@ In order to acquire a bearer token, you need to send a POST request directly to 
 We have to send some information to the 'Authorization' HTTP Header with credentialization, the process is a little troublesome.
 
 It is a tool to alleviate such trouble and to obtain a bearer token easily.
-
-# Environment
-rather php5
 
 # Preparation
 1. Consumer Key(API Key)
