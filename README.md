@@ -1,6 +1,7 @@
 # Twitter Bearer Token Getter
 
-[![Build Status](https://travis-ci.org/ryota-murakami/twitter-bearer-token-getter.svg?branch=master)](https://travis-ci.org/ryota-murakami/twitter-bearer-token-getter)
+[![Build Status](https://travis-ci.org/ryota-murakami/twitter-bearer-token-getter.svg?branch=master)](https://travis-ci.org/ryota-murakami/twitter-bearer-token-getter) [![Latest Stable Version](https://poser.pugx.org/ryota-murakami/twitter-bearer-token-getter/version)](https://packagist.org/packages/ryota-murakami/twitter-bearer-token-getter) [![Total Downloads](https://poser.pugx.org/ryota-murakami/twitter-bearer-token-getter/downloads)](https://packagist.org/packages/ryota-murakami/twitter-bearer-token-getter) [![License](https://poser.pugx.org/ryota-murakami/twitter-bearer-token-getter/license)](https://packagist.org/packages/ryota-murakami/twitter-bearer-token-getter)
+
 
 This is a CLI tool for developers using twitter api.
 
@@ -21,14 +22,19 @@ rather php5
 # Installation
 
 ```
-git clone git@github.com:ryota-murakami/twitter-bearertoken-getter.git
+composer global require ryota-murakami/twitter-bearer-token-getter
+```
+
+If you have not gone yet, so please do the following.
+
+```
+export PATH="$PATH:$HOME/.composer/vendor/bin"
 ```
 
 # Run
 
 ```
-cd twitter-bearertoken-getter
-./src/getBearerToken.php
+twitter-bearer-token-getter
 ```
 
 After Run,  
