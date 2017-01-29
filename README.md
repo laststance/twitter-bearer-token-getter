@@ -12,9 +12,9 @@ We have to send some information to the 'Authorization' HTTP Header with credent
 It is a tool to alleviate such trouble and to obtain a bearer token easily.
 
 # Environment
-rather php 5
+rather php5
 
-# Requirements
+# Preparation
 1. Consumer Key(API Key)
 2. Consumer Secret (API Secret)
 
