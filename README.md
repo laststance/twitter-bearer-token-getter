@@ -7,6 +7,8 @@
 
 This is a CLI tool for developers using twitter api.
 
+![demo](./demo.gif)
+
 In order to acquire a bearer token, you need to send a POST request directly to the endpoint of twitter api.  
 [Official document of bearer token](https://dev.twitter.com/oauth/reference/post/oauth2/token)
 
