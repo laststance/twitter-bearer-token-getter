@@ -75,4 +75,6 @@ if ($decoded_json['token_type'] !== 'bearer') {
 echo "Success.\n";
 echo "Followng your bearer token.\n\n";
 
-echo $decoded_json['access_token'];
+echo "\e[32m".$decoded_json['access_token'];
+
+echo "\n";
