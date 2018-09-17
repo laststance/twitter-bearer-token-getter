@@ -5,7 +5,7 @@
 [![Total Downloads](https://poser.pugx.org/ryota-murakami/twitter-bearer-token-getter/downloads)](https://packagist.org/packages/ryota-murakami/twitter-bearer-token-getter)
 [![License](https://poser.pugx.org/ryota-murakami/twitter-bearer-token-getter/license)](https://packagist.org/packages/ryota-murakami/twitter-bearer-token-getter)
 
-This is a CLI tool for developers using twitter api.
+CLI tool of twitter API Bearer Token.
 
 ![demo](./demo.gif)
 
